@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+body {
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #1a1b21;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid white;
+    background-color: #1a1b21;
+    width: 100%;
+}
+
+.divider {
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.logo-text {
+    font-size: 3em;
+    padding-top: 10%;
+}
+
+.gta-text {
+    font-size: 1.2em;
+    padding-top: 1%;
+}
+
+.buttons {
+    padding-top: 3%;
+}
+
+.landing-buttons {
+    font-family: 'Anonymous Pro', monospace;
+    background-color: white;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.landing-buttons:hover {
+    background-color: black;
+    color: white;
+}
+
+.privacy-header {
+    text-align: left;
+    padding-left: 1%;
+}
+
+.login-header {
+    padding-top: 8%;
+}
+
+.login-form input {
+    border-radius: 5px;
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    background: black;
+    border: solid;
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+:-ms-input-placeholder {
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+::-ms-input-placeholder {
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.login-button {
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    background: black;
+    border: solid;
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dashboard-header {
+    text-align: left;
+    padding-left: 1%;
+}
